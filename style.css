@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial;
+    background: #111;
+}
+
+#canvas-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+#control-panel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 220px;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
